@@ -10,9 +10,14 @@
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/load.css">
 </head>
 
 <body>
+    <div id="load">
+        <img src="./images/cargando.gif" alt="Loading..." />
+    </div>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <a href="https://api.whatsapp.com/send?phone=+50558705014&text=Hola, quiero saber mas sobre la Agencia De Relaciones Internacionales Y Comercio Exterior" class="float" target="_blank">
     <i class="fa fa-whatsapp my-float"></i>
@@ -57,47 +62,6 @@
     </header>
 
     <main>
-        <section class="container about">
-            <h2 class="subtitle">¿Necesitas Asesoramiento?</h2>
-            <p class="about__paragraph">Todo lo necesario y obligatorio </p>
-
-            <div class="about__main">
-                <article class="about__icons">
-                    <img src="./images/shapes.svg" class="about__icon">
-                    <h3 class="about__title">Servicios</h3>
-                    <p class="about__paragrah">	<br>Política exterior: <br/>
-                        	<br>Análisis de riesgos políticos y evaluación de oportunidades comerciales. <br/>
-                        	<br>Identificación de posibles barreras comerciales <br/>
-
-                        	<br>Cooperación internacional <br/>
-                        	<br>Gestión de identificación de fuentes de financiamiento<br/>
-
-                         <br>Constatar el cumplimiento normativo internacional<br/>
-
-                        	<br>Resolución de conflictos: <br/>
-                        	<br>Mediación en la resolución de conflictos económicos Nacionales<br/>
-                           <br>Comercialización nacional<br/>
-
-                        	<br>Planificación de integración de estrategias del comercio nacional<br/> 
-                        </p>
-                </article>
-
-                <article class="about__icons">
-                    <img src="./images/paint.svg" class="about__icon">
-                    <h3 class="about__title">Asesorias</h3>
-                    <p class="about__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae tempore
-                        porro eius facilis?</p>
-                </article>
-
-                <article class="about__icons">
-                    <img src="./images/code.svg" class="about__icon">
-                    <h3 class="about__title">Ayuda</h3>
-                    <p class="about__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae tempore
-                        porro eius facilis?</p>
-                </article>
-            </div>
-        </section>
-
         <section class="knowledge">
             <div class="knowledge__container container">
                 <div class="knowledege__texts">
@@ -228,23 +192,12 @@
                     </div>
                 </article>
 
-                <article class="questions__padding">
-                    <div class="questions__answer">
-                        <h3 class="questions__title">Politicas de la empresa
-                            <span class="questions__arrow">
-                                <img src="./images/arrow.svg" class="questions__img">
-                            </span>
-                        </h3>
-
-                        <p class="questions__show"></p>
-                    </div>
-                </article>
             </section>
 
             <section class="questions__offer">
                 <h2 class="subtitle">Contactanos</h2>
                 <p class="questions__copy"></p>
-                <a href="#" class="cta">Inicia ahora</a>
+                <a href="contacto.html" target="_blank" class="cta">Inicia ahora</a>
             </section>
         </section>
     </main>
@@ -293,6 +246,6 @@
     <script src="./js/slider.js"></script>
     <script src="./js/questions.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="./js/load.js"></script>
 </body>
-
 </html>
