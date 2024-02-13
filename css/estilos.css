@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
 
 :root {
     --padding-container: 100px 0;
@@ -72,10 +72,10 @@ body {
 .nav__logo {
     position: relative;
     display: inline-block; /* Para que el div ocupe solo el espacio necesario */
-    width: 20%; /* Ajusta el tamaño del logo en relación con el contenedor padre */
+    width: 10%; /* Ajusta el tamaño del logo en relación con el contenedor padre */
 }
 .nav__logo img {
-    width: 100%; /* El logo ocupará el 100% del ancho del contenedor */
+    width: 200%; /* El logo ocupará el 100% del ancho del contenedor */
     height: auto;
     
 }
@@ -168,7 +168,8 @@ body {
 .subtitle {
     color: var(--color-title);
     font-size: 2rem;
-    margin-bottom: 25px;
+    margin-bottom: 25px
+    text aling center;
 }
 
 
@@ -790,6 +791,20 @@ body {
     height: auto;
     
   
+}
+
+
+.centro {
+    text-align: center;
+}
+
+.texto {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
 }
 
 
