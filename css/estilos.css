@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif, Arial, Helvetica;
+    font-family: Arial;
     scrollbar-color: blue lightblue;
 }
 
@@ -70,18 +70,21 @@ body {
 
 /* Nav LOGO*/
 .nav__logo {
-    position: relative;
-    display: inline-block; /* Para que el div ocupe solo el espacio necesario */
-    width: 10%; /* Ajusta el tamaño del logo en relación con el contenedor padre */
+    display: flex; /* Para que el div ocupe solo el espacio necesario */
+    align-items: center;
 }
+
 .nav__logo img {
-    width: 200%; /* El logo ocupará el 100% del ancho del contenedor */
-    height: auto;
-    
+    height: 96px;
+    margin-right: 19px; 
 }
 
 .nav__title {
-    display: none; /* Para ocultar el texto, ya que usaremos una imagen como logo */
+    display: none;
+}
+
+.nav__title{
+    flex-direction: column;
 }
 
 /* Nav */
@@ -143,6 +146,7 @@ body {
 
 .hero__title {
     font-size: 3rem;
+    justify-content: center;
 }
 
 .hero__paragraph {
@@ -569,6 +573,7 @@ body {
 
     .hero__title{
         font-size: 2.5rem;
+        justify-content: center;
     }
 
 
@@ -644,6 +649,7 @@ body {
 @media (max-width:600px){
     .hero__title{
         font-size: 2rem;
+        justify-content: center;
     }
 
     .hero__paragraph{
