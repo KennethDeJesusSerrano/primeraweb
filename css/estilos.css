@@ -53,7 +53,6 @@ body {
     z-index: -1;
 }
 
-
 .her::before {
     content: "";
     position: absolute;
@@ -67,14 +66,14 @@ body {
     z-index: -1;
 }
 
-/* Nav LOGO*/
+/* Nav LOGO  */
 .nav__logo {
-    display: flex; /* Para que el div ocupe solo el espacio necesario */
+    display: flex; 
     align-items: center;
 }
 
 .nav__logo img {
-    height: 96px;
+    height: 112px;
     margin-right: 19px; 
 }
 
