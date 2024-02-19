@@ -68,12 +68,14 @@ body {
 
 /* Nav LOGO  */
 .nav__logo {
-    display: flex; 
-    align-items: center;
+    position: absolute;
+    top: 20px; /* Ajustar la posición vertical del logo */
+    left: 20px; /* Ajustar la posición horizontal del logo */
+    margin-left: -80px;
 }
 
 .nav__logo img {
-    height: 112px;
+    height: 230px;
     margin-right: 19px; 
 }
 
