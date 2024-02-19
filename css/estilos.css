@@ -69,13 +69,12 @@ body {
 /* Nav LOGO  */
 .nav__logo {
     position: absolute;
-    top: 20px; /* Ajustar la posición vertical del logo */
-    left: 20px; /* Ajustar la posición horizontal del logo */
-    margin-left: -80px;
+    display: flex;
+    align-items: center;
 }
 
 .nav__logo img {
-    height: 230px;
+    height: 180px;
     margin-right: 19px; 
 }
 
@@ -722,6 +721,8 @@ body {
         */
     }
 }
+
+
 
 
 /*API Numero de WhatsApp*/
