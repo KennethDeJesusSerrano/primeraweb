@@ -227,6 +227,7 @@ body {
 .knowledge__paragraph{
     line-height: 1.7;
     margin-bottom: 15px;
+    
 }
 
 .knowledge__img{
@@ -810,7 +811,9 @@ div#slider figure {
 
 }
 
-
+.knowledge__paragraph{
+    text-align: justify;
+}
 
 
 
